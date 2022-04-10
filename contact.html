@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>University Website Design</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <div class="container">
+        <nav>
+          <a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo" /></a>
+          <div class="nav-links" id="nav">
+            <img class="cross icon" src="./img/icons/cross.png" alt="menu" onclick="hideMenu()" />
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="course.html">COURSE</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <img class="menu icon" src="./img/icons/menu.png" alt="menu" onclick="showMenu()" />
+        </nav>
+        <h1 class="main-title">Contact Us</h1>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73756.24342550531!2d20.394490715658794!3d54.711688483186315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e33d8d4b7c21a9%3A0x5050960016126ed3!2z0JrQsNC70LjQvdC40L3Qs9GA0LDQtCwg0JrQsNC70LjQvdC40L3Qs9GA0LDQtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1649326246012!5m2!1sru!2sru"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="contact-col">
+            <div>
+              <img class="icon contact-icon" src="./img/icons/home.png" alt="home" />
+              <span>
+                <h5 class="contact-name">XYZ Road, ABC Building</h5>
+                <p>Kaliningrad, RU</p>
+              </span>
+            </div>
+            <div>
+              <img class="icon contact-icon" src="./img/icons/phone.png" alt="phone" />
+              <span>
+                <h5 class="contact-name">+7 908 1234567</h5>
+                <p>Monday to Saturday, 10AM to 7PM</p>
+              </span>
+            </div>
+            <div>
+              <img class="icon contact-icon" src="./img/icons/mail.png" alt="mail" />
+              <span>
+                <h5 class="contact-name">info@gmail.com</h5>
+                <p>Enter to your query</p>
+              </span>
+            </div>
+          </div>
+          <div class="contact-col">
+            <form>
+              <input name="name" type="text" placeholder="Enter your name" required />
+              <input name="email" type="email" placeholder="Enter your Email" required />
+              <input name="subject" type="text" placeholder="Enter your subject" required />
+              <textarea name="message" rows="8" placeholder="Message" required></textarea>
+              <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet beatae, temporibus illum
+        incidunt itaque similique molestias.<br />Quaerat architecto doloremque, ipsa numquam
+        dolorem aperiam, quidem quod velit at, in modi ut!
+      </p>
+      <div class="icons">
+        <img class="icon" src="./img/icons/linkedin.png" alt="" />
+        <img class="icon" src="./img/icons/twitter.png" alt="" />
+      </div>
+      <p class="caption">
+        Made with <img class="icon heart-icon" src="./img/icons/heart.png" alt="heart" /> by Easy
+        Tutorials
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
